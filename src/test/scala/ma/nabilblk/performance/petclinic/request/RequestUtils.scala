@@ -1,4 +1,4 @@
-package org.piro84.performance.petclinic.request
+package ma.nabilblk.performance.petclinic.request
 
 import scala.util.Random
 /**

@@ -1,12 +1,11 @@
-package org.piro84.performance.petclinic
+package ma.nabilblk.performance.petclinic
 
-import org.piro84.performance.petclinic.config.Config
+import ma.nabilblk.performance.petclinic.config.Config
+import ma.nabilblk.performance.petclinic.request.{OwnerRequest, VisitRequest}
 import scala.concurrent.duration._
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import io.gatling.jdbc.Predef._
-import org.piro84.performance.petclinic.request.OwnerRequest
-import org.piro84.performance.petclinic.request.VisitRequest
 
 class AddVisitSimulation extends Simulation {
 

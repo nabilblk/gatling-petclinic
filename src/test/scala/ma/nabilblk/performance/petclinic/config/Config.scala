@@ -1,4 +1,4 @@
-package org.piro84.performance.petclinic.config
+package ma.nabilblk.performance.petclinic.config
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
